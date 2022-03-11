@@ -85,9 +85,9 @@ public class Zadanie1 {
     }
 
     private static void showQuantityLaptop(HashMap<String, Integer> qunatity) {
-        System.out.println("Liczba laptopów każdego z producenta:");
+        System.out.println("\nLiczba laptopów każdego z producenta:");
         for(Map.Entry entry : qunatity.entrySet()) {
-            System.out.println("Liczba laptopów "+entry.getKey() + ": "+entry.getValue());
+            System.out.println(entry.getKey() + ": "+entry.getValue());
         }
     }
 
